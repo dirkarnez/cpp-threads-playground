@@ -1,4 +1,8 @@
 cpp-threads-playground
 ======================
 ### TODOs
-- [ ] `find_package(Threads)`
+- [ ] CMake
+  - ```CMake
+    set (THREADS_PREFER_PTHREAD_FLAG ON)
+    find_package(Threads)
+    ```
