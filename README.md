@@ -82,3 +82,6 @@ Choose the simplest mechanism that provides the needed visibility and atomicity.
     set (THREADS_PREFER_PTHREAD_FLAG ON)
     find_package(Threads)
     ```
+
+
+<!-- Security scan triggered at 2026-09-15 09:38:23 -->
