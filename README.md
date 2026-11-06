@@ -81,6 +81,7 @@ Choose the simplest mechanism that provides the needed visibility and atomicity.
   - ```CMake
     set (THREADS_PREFER_PTHREAD_FLAG ON)
     find_package(Threads)
+    message("${CMAKE_THREAD_LIBS_INIT}")
     ```
 
 
